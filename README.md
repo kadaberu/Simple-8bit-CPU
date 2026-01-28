@@ -1,5 +1,5 @@
 # sCPU: A Simple 8-Bit Processor for Series Summation
-
+![](https://img.shields.io/badge/Major-Integrated--Circuits-orange)
 This project is a simple 8-bit processor built in **Logisim-evolution v4.0.0**. I designed it to perform iterative calculations, specifically for summing arithmetic sequences, and displaying the results on a hexadecimal screen.
 
 ##  Hardware Overview
@@ -62,6 +62,7 @@ This program adds numbers together and stops once the counter hits the limit.
    2. **Important**: Before starting, toggle the **Reset** signal (Set to 1 then back to 0) to ensure the PC is at `0` and registers are cleared.
    3. Enable the clock: Go to simulate-> Auto-Tick Enabled.
    4. The Hex display will update until the final sum is calculated and displayed.
+
 
 
 
